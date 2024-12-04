@@ -1,4 +1,4 @@
 function findPerimert(length,width){
-    return (length * 2) + (width * 2);
+    return 2 * (length + width);
 }
 console.log(findPerimert(10,32));
