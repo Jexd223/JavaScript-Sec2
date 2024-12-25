@@ -5,4 +5,3 @@ const annouuncements = finalParticpants.map((member) => {
 });
 
 console.log(annouuncements);
-//slide13
