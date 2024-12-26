@@ -6,7 +6,7 @@ console.log(arr1[2]);
 console.log(arr1[arr1.length - 1]); 
 
 console.log("\n********Length And Index PT.2********");
-let arr3 = Array(3); 
+let arr3 = Array(3); //สร้างArray -ช่อง
 arr3[2] = "Adding a value!"; 
 console.log(arr3[2]); 
 console.log(arr3[arr3.length - 1]); 
