@@ -7,7 +7,7 @@ let newValues = values1.concat(values2,values3);
 
 for (let i = 0; i < newValues.length; i++) {
     for (let j = i + 1; j < newValues.length; j++) {
-        if (newValues[i] === newValues[j] && !commonElement.includes(newValues[i])) {
+        if (newValues[i] === newValues[j] ) {
             commonElement.push(newValues[i]);
         }
     }
