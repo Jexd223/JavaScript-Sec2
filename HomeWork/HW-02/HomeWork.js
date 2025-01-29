@@ -68,23 +68,12 @@ library.addBook({ title: "1984", author: "George Orwell", year: 1949, isRead: tr
 
 library.listBooks();
 library.countBook();
-/* Output:
-1. ชื่อ: The Great Gatsby, ผู้แต่ง: F. Scott Fitzgerald, ปีที่พิมพ์: 1925, สถานะ: อ่านแล้ว
-2. ชื่อ: To Kill a Mockingbird, ผู้แต่ง: Harper Lee, ปีที่พิมพ์: 1960, สถานะ: ยังไม่ได้อ่าน
-3. ชื่อ: 1984, ผู้แต่ง: George Orwell, ปีที่พิมพ์: 1949, สถานะ: อ่านแล้ว
-*/
 
 library.findBook("The Great Gatsby")
 
 console.log(library.getUnreadBooks());
-// Output: [ { title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960, isRead: false } ]
 library.removeBook("1984");
 library.countBook();
 library.listBooks();
-/* Output:
-1. ชื่อ: The Great Gatsby, ผู้แต่ง: F. Scott Fitzgerald, ปีที่พิมพ์: 1925, สถานะ: อ่านแล้ว
-2. ชื่อ: To Kill a Mockingbird, ผู้แต่ง: Harper Lee, ปีที่พิมพ์: 1960, สถานะ: ยังไม่ได้อ่าน
-*/
-
 
 module.exports = library;

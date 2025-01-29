@@ -4,7 +4,7 @@ const People = {
         for (let person of peopleArray) {
             totalBudget += person.budget;
         }
-        return totalBudget;
+        return "Total Budget : " + totalBudget;
     }
 };
 
@@ -13,3 +13,4 @@ console.log(People.getBudget([
     { name: "Steve", age: 32, budget: 40000 },
     { name: "Martin", age: 16, budget: 2700 }
 ]));
+

@@ -23,3 +23,6 @@ console.log("Character count:", countString("Hello world, how are you?", "c")); 
 console.log("Vowel count:", countString("Hello world, how are you?", "v")); // Output: 8
 
 module.exports = countString;
+
+
+

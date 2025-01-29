@@ -9,3 +9,4 @@ function capToFront(word) {
 console.log(capToFront("haPpy"));    // Output: "PPhay"
 console.log(capToFront("moveMENT")); // Output: "MENTmove"
 console.log(capToFront("shOrtCAKE")); // Output: "OCAKEshrt"
+

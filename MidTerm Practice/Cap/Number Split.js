@@ -8,3 +8,5 @@ function numberSplit(num) {
 
 console.log(numberSplit(4)); // [2, 2]
 console.log(numberSplit(5)); // [2, 3]
+
+
